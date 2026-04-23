@@ -1,0 +1,7 @@
+environment: dev
+destination: bigquery_dev
+schedule: daily
+sources:
+  - salesforce
+  - zendesk
+  - github
