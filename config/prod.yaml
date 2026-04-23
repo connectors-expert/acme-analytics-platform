@@ -1,0 +1,7 @@
+environment: prod
+destination: bigquery_prod
+schedule: hourly
+sources:
+  - salesforce
+  - zendesk
+  - github
