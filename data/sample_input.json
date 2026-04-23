@@ -1,0 +1,5 @@
+[
+  {"id": 1, "source": "salesforce", "value": 1000},
+  {"id": 2, "source": "zendesk", "value": 500},
+  {"id": 3, "source": "github", "value": 200}
+]
