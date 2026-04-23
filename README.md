@@ -25,4 +25,32 @@ This platform supports reporting, internal dashboards, and data-driven workflows
 ---
 
 ## Architecture
+             +----------------------+
+             |  External Sources    |
+             |----------------------|
+             | Salesforce           |
+             | Zendesk              |
+             | GitHub               |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             |  Extraction Layer    |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             | Transformation Layer |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             |  Validation Layer    |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             |      BigQuery        |
+             | (Analytics Storage)  |
+             +----------------------+
 
